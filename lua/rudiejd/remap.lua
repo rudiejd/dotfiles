@@ -30,3 +30,6 @@ vim.keymap.set('n', '<leader>lb', function ()
 end)
 
 vim.keymap.set("i", "jj", "<Esc>")
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
