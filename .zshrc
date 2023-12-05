@@ -27,6 +27,7 @@ source ~/.bash_aliases
 
 # vi(m) key bindings
 bindkey -M viins jj vi-cmd-mode
+bindkey -v
 
 # fix term colors
 if [[ $TERM == xterm ]]; then
