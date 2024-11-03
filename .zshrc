@@ -38,3 +38,5 @@ export PATH=$PATH:~/.dotnet/tools/
 
 # opam configuration
 [[ ! -r /home/hermeslover69/.opam/opam-init/init.zsh ]] || source /home/hermeslover69/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
+. "$HOME/.asdf/asdf.sh"
