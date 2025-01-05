@@ -40,3 +40,15 @@ export PATH=$PATH:~/.dotnet/tools/
 [[ ! -r /home/hermeslover69/.opam/opam-init/init.zsh ]] || source /home/hermeslover69/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
 . "$HOME/.asdf/asdf.sh"
+
+source ~/.exercism_completion.zsh
+
+# shell history in elixir iex
+export ERL_AFLAGS="-kernel shell_history enabled" 
+
+# Created by `pipx` on 2024-11-06 14:35:25
+export PATH="$PATH:/home/jd/.local/bin"
+
+# AWS SHIT
+export AWS_REGION=us-east-1
+export AWS_DEFAULT_REGION=us-east-1
